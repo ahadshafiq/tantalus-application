@@ -12,9 +12,9 @@
  *= require_tree .
  */
 
-/*body{
- 		background-color: #29D1DF;
-}*/
+body{
+ 		background-color: #40464b;
+}
 
 h1, h2, h3, p{
 	text-align: center;
@@ -25,8 +25,11 @@ h1, h2, h3, p{
 .img_preview{
 	border: 1px solid #DBEDE3;
 }
+#avatar{
+	margin: 4%;
+}
 #vcard{
-	background-color: gray;
+	/*background-color: 3C3E40;*/
 }	
 #container{
 	margin: 4%;
@@ -35,8 +38,21 @@ h1, h2, h3, p{
 	margin: 3.5%;
 }
 #credentials{
-	margin-top: -5%;
+	margin-top: 0%;
 	margin-left: -5%;
+}
+#credentials p{
+	font-size: 12px;
+}
+#credentials h3{
+text-decoration: underline;
+}
+#internationalExp p{
+	font-size: 12px;
+}
+#quotes p{
+	margin: 1%;
+	padding: 1%;
 }
 #quoteName{
 	font-size: 10px;
@@ -44,9 +60,160 @@ h1, h2, h3, p{
 span{ /*github social icon push to aligh with gravatar*/
 	margin-left: 2%;
 }
+#firstSegment{
+	background-color: #3C3E40;
+	border: 1px solid black;
+}
+#firstSegment h1,h2,h3,p{
+	color: white;
+}
 #secondSegment{
 }
+#chartSegment{
+	margin-top: 10%;
+}
+#checkBoxSegment{
+	margin-top: 20%;
+}
+/**/
+.container{
+ width:300px;
+ font-family: Arial;
+ }
+ 
+.record{
+ float: left;
+ width: 100%;
+ /*border: 1px solid #ccc;
+ background-color: #f0f0f0;*/
+ margin-bottom: 2px;
+ -moz-border-radius: 0px 10px 10px 0px;
+ -moz-border-radius: 0px 10px 10px 0px;
+ }
+ 
+.bar {
+ background: transparent url(gradient.png) repeat-x top left;
+ float: left;
+ clear: left;
+ height: 30px;
+ }
+ 
+.bar span{
+ font-size: 12px;
+ font-weight: bold;
+ color: #fff;
+ float: left;
+ margin-left: 5px;
+ margin-top: 7px;
+ }
+ 
+.p{
+ padding-top: 3px;
+ float: right;
+ color: #6D8591;
+ clear: right;
+ font-size: 12px;
+ font-weight: bold;
+ height: 25px;
+ }
+ 
+.p span{
+ font-size: 12px;
+ font-weight: bold;
+ float: left;
+ margin-right: 5px;
+ margin-top: 5px;
+ }
 
+/**/
+/* 
+    Document   : style
+    Created on : Aug 29, 2012, 3:59:32 PM
+    Author     : Nick
+    Description:
+        Purpose of the stylesheet follows.
+*/
 
+html {
+    height:100%;
+}
 
+body {
+    position:relative;
+    
+    height:100%;
+    padding:0;
+    margin:0;
+}
 
+div#show {
+    width:280px;
+    height:200px;
+    padding:20px;
+    position:absolute;
+    left:50%;
+    margin-left:-120px;
+    top:50%;
+    margin-top:-160px;
+    background:#40464b;
+    border-radius:6px;
+}
+
+h1 {
+    font-size:14px;
+    color:;
+    text-align:center;
+    margin:0 0 20px;
+    padding:0;
+    font-family:Arial;
+}
+
+input[type="checkbox"] {
+    display:none;
+}
+
+input[type="checkbox"] + label {
+    color:;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+}
+
+input[type="checkbox"] + label span {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    background:url(check_radio_sheet.png) left top no-repeat;
+    cursor:pointer;
+}
+
+input[type="checkbox"]:checked + label span {
+    background:url(check_radio_sheet.png) -19px top no-repeat;
+}
+
+input[type="radio"] {
+    display:none;
+}
+
+input[type="radio"] + label {
+    color:;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+}
+
+input[type="radio"] + label span {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    background:url(check_radio_sheet.png) -38px top no-repeat;
+    cursor:pointer;
+}
+
+input[type="radio"]:checked + label span {
+    background:url(check_radio_sheet.png) -57px top no-repeat;
+}
+
+/* for the tabbed boxes*/
