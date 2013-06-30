@@ -1,7 +1,7 @@
 Twt::Application.routes.draw do
 
       root to: 'static_pages#home' 
-
+      get '/help', to: 'static_pages#help'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

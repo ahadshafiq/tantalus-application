@@ -11,3 +11,42 @@
  *= require_self
  *= require_tree .
  */
+
+/*body{
+ 		background-color: #29D1DF;
+}*/
+
+h1, h2, h3, p{
+	text-align: center;
+}
+.img_preview:hover{
+	opacity: 0.8;
+}
+.img_preview{
+	border: 1px solid #DBEDE3;
+}
+#vcard{
+	background-color: gray;
+}	
+#container{
+	margin: 4%;
+}
+#credentials, #socialIcons, #internationalExp, #quotes{
+	margin: 3.5%;
+}
+#credentials{
+	margin-top: -5%;
+	margin-left: -5%;
+}
+#quoteName{
+	font-size: 10px;
+}
+span{ /*github social icon push to aligh with gravatar*/
+	margin-left: 2%;
+}
+#secondSegment{
+}
+
+
+
+
