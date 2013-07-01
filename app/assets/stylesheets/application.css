@@ -34,6 +34,10 @@ h1, h2, h3, p{
 #container{
     margin: 4%;
 }
+#socialIcons a{
+    color: #eb2f49;
+    margin-left: 4%;
+}
 #credentials, #socialIcons, #internationalExp, #quotes{
     margin: 3.5%;
 }
@@ -80,6 +84,26 @@ span{ /*github social icon push to aligh with gravatar*/
 }
 
 /* ################################################################# For the TABBED BOXES ################################################################# */
+
+#secondSegment p{
+    color: #47a3da;
+    text-align: left;
+    font-size: 13px;
+}
+#tabs{
+    padding: 0px;
+    margin: 0px;
+    font-size: 13px;
+    background-color:  #40464b;
+    border:none;
+}
+/*#ui-tabs-panel, #ui-tabs-panel, #ui-widget-content, #ui-corner-bottom, #ui-tabs, #ui-widget, #ui-corner-all{
+    background-color:  #40464b;
+}*/
+#tabs .ui-widget-header {
+    background: none !important;
+    border:none;
+}
 
 /* ################################################################# For the CHECKBOXES ################################################################# */
 
