@@ -36,9 +36,79 @@ h1, h2, h3, p{
 }
 #socialIcons a{
     color: #eb2f49;
-    margin-left: 4%;
+    margin: 0%;
+
 }
-#credentials, #socialIcons, #internationalExp, #quotes{
+#socialIcons{
+    margin-top: -6%;
+    margin-left: 7%;
+}
+#resume{
+    margin-left: 0%;
+}
+/* ######### RESUME BUTTON ######### */
+
+.button1 {
+    -moz-box-shadow:inset 0px 1px 0px 0px #f29c93;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #f29c93;
+    box-shadow:inset 0px 1px 0px 0px #f29c93;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fe1a00), color-stop(1, #ce0100) );
+    background:-moz-linear-gradient( center top, #fe1a00 5%, #ce0100 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe1a00', endColorstr='#ce0100');
+    background-color:#fe1a00;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:1px solid #d83526;
+    display:inline-block;
+    color:#ffffff !important ;
+    font-family:arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:1px 1px 0px #b23e35;
+}.button1:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ce0100), color-stop(1, #fe1a00) );
+    background:-moz-linear-gradient( center top, #ce0100 5%, #fe1a00 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ce0100', endColorstr='#fe1a00');
+    background-color:#ce0100;
+}.button1:active {
+    position:relative;
+    top:1px;
+}
+.button2 {
+    margin-left: 4% !important;
+    -moz-box-shadow:inset 0px 1px 0px 0px #f29c93;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #f29c93;
+    box-shadow:inset 0px 1px 0px 0px #f29c93;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fe1a00), color-stop(1, #ce0100) );
+    background:-moz-linear-gradient( center top, #fe1a00 5%, #ce0100 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe1a00', endColorstr='#ce0100');
+    background-color:#fe1a00;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:1px solid #d83526;
+    display:inline-block;
+    color:#ffffff !important ;
+    font-family:arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 12px;
+    text-decoration:none;
+    text-shadow:1px 1px 0px #b23e35;
+}.button2:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ce0100), color-stop(1, #fe1a00) );
+    background:-moz-linear-gradient( center top, #ce0100 5%, #fe1a00 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ce0100', endColorstr='#fe1a00');
+    background-color:#ce0100;
+}.button2:active {
+    position:relative;
+    top:1px;
+}
+
+#credentials, #internationalExp, #quotes{
     margin: 3.5%;
 }
 #credentials{
@@ -51,15 +121,29 @@ h1, h2, h3, p{
 #credentials h3{
 text-decoration: underline;
 }
+#internationalExp{
+    margin-top: 15% !important;
+}
 #internationalExp p{
     font-size: 12px;
+}
+#internationalExp h2{
+    font-size: 18px;
+}
+#iconJun{
+    margin-top: 7%;
 }
 #quotes p{
     margin: 1%;
     padding: 1%;
+    text-align: left !important;
 }
 #quotes{
-    padding-bottom: 12.75%;
+    padding-bottom: 3%;
+    margin-top: 8% !important ;
+}
+#quotes h2{
+    font-size: 18px;
 }
 #quoteName{
     font-size: 10px;
@@ -74,15 +158,43 @@ span{ /*github social icon push to aligh with gravatar*/
 #firstSegment h1,h2,h3,p{
     color: white;
 }
-#secondSegment{
+#secondSegment h2{
+    font-size: 18px;
+}
+#firstBoxSet{
+    margin-left: -6% !important;
+}
+#secondBoxSet{
+    margin-left: 12% !important;
+}
+#thirdBoxSet{
+    margin-left: 11% !important;
 }
 #chartSegment{
     margin-top: 4%;
 }
-#checkBoxSegment{
-    margin-top: 4%;
+#chartSegment h2{
+    font-size: 18px;
+    margin-left: -3%;
 }
-
+#checkBoxSegment{
+    margin-top: 1%;
+}
+#checkBoxSegment h2{
+    font-size: 18px;
+}
+#firstChart{
+    margin-left: -3% !important;
+}
+#secondChart{
+    margin-left: 5% !important;
+}
+#thirdChart{
+    margin-left: 5% !important;
+}
+#thirdChart h3{
+    margin-left: -3% !important;
+}
 /* ################################################################# For the TABBED BOXES ################################################################# */
 
 #secondSegment p{
@@ -95,7 +207,7 @@ span{ /*github social icon push to aligh with gravatar*/
     margin: 0px;
     font-size: 13px;
     background-color:  #40464b;
-    border:none;
+    
 }
 /*#ui-tabs-panel, #ui-tabs-panel, #ui-widget-content, #ui-corner-bottom, #ui-tabs, #ui-widget, #ui-corner-all{
     background-color:  #40464b;
@@ -105,6 +217,10 @@ span{ /*github social icon push to aligh with gravatar*/
     border:none;
 }
 
+.ui-widget-content {
+    background: none no-repeat !important;
+       border:none !important;
+}
 /* ################################################################# For the CHECKBOXES ################################################################# */
 
 html {
@@ -242,3 +358,5 @@ input[type="radio"]:checked + label span {
 #firstChart{
     margin-left: 4%;
 }
+
+/*################*/
