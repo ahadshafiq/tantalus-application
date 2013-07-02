@@ -286,7 +286,6 @@ input[type="radio"] {
 }
 
 input[type="radio"] + label {
-    color:;
     font-family:Arial, sans-serif;
     font-size:14px;
 }
