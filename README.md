@@ -5,3 +5,7 @@ It is designed on a custom 960Grid with HTML and CSS. It includes minimal JS.
 It includes download links to pdf files like resume and cover letter.
 This is what it looks like:
 ![ScreenShot](https://raw.github.com/ahadshafiq/tantalus-application/master/public/screenshot.jpg)
+
+- [ ] Implement copycopter for easy copy editing.
+- [ ] Make the site responsive.
+- [ ] Make the site interactive (like the maps).
