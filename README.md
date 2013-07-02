@@ -6,6 +6,9 @@ It includes download links to pdf files like resume and cover letter.
 This is what it looks like:
 ![ScreenShot](https://raw.github.com/ahadshafiq/tantalus-application/master/public/screenshot.jpg)
 
+TODO:
 - [ ] Implement copycopter for easy copy editing.
 - [ ] Make the site responsive.
 - [ ] Make the site interactive (like the maps).
+
+Deployed on heroku at: http://tantalus-application.herokuapp.com/
